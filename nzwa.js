@@ -62,14 +62,14 @@ const option = JSON.parse(fs.readFileSync('./options/option.json'))
 const { ind } = require('./options/language')
 //const { eng } = require('./options/language')
 const {
-    botName,
-    ownerName,
-    BarBarKey,
-    ownerNumbers,
-    languages,
-    botPrefix,
-    memberLimitss,
-    userDefaultLimit
+    "botName": "Squidward Ganz",
+    "ownerName": "Hirasawa Ganz",
+    "BarBarKey": "YOUR_APIKEY",
+    "ownerNumbers": "6285801568215@s.whatsapp.net",
+    "languages": "ind",
+    "botPrefix": "!",
+    "memberLimitss": "25",
+    "userDefaultLimit": "30"
 } = option
 
 // Load Menu File
